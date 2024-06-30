@@ -1,4 +1,6 @@
 // vite.config.js
-export default {
-    base: 'http://davgarciadev.github.io/basic-project', // Replace 'my-vite-project' with your repository name
-  };
+import { defineConfig } from "vite";
+
+export default defineConfig({
+    base: '/basic-project/' // Replace 'my-vite-project' with your repository name
+  })
